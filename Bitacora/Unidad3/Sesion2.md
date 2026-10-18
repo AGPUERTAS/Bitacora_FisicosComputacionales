@@ -12,4 +12,22 @@
 
 **¿Qué información te proporciona el depurador?**
 
-- El depurador proporciona informacion como: Direcciones de memoria, Tamño y capacidad del vector y el estado de los atributos.
+- El depurador proporciona informacion como: Direcciones de memoria, Tamaño y capacidad del vector y el estado de los atributos.
+
+**Actividad 4**
+-
+
+**Ejecuta este código. Luego, descomenta las líneas que están comentadas y vuelve a compilar. ¿Qué sucede? ¿Por qué sucede esto? ¿Qué puedes concluir?**
+
+![alt text](../../ejrecicios-capturas/Unidad3/Sesion2Caividad4.png)
+- 
+
+![alt text](../../ejrecicios-capturas/Unidad3/Sesion2Actividad4.png)
+
+- Al descomentar las lineas el programa no ejecuta debido a errores en el codigo, esto es debido al encapsulamiento de las variables ya que las dfos que presentan error estan encapsuladas tanto como privada y protected haciendo imposible al programa acceder a ellas.
+
+
+
+![alt text](../../ejrecicios-capturas/Unidad3/Sesion4.png)
+
+- Al ejecutar este programa da error debido a que la variable ```secret1``` esta declarar dentro de una clase de tipo private lo que hace sea imposible de acceder desde otra parte del codigo
